@@ -12,10 +12,9 @@ The *X_sub* protocol is followed. So the following are the training, validation 
 
 The following hyper parameters are used:
 
- First Header  | Second Header 
- ------------- | ------------- 
- Content Cell  | Content Cell  
- Content Cell  | Content Cell  
+ Optimizer  | Learning Rate |  Momentum |  Batch Size | Epochs
+ ------------- | -------------| ---------- | ---------| -------
+ SGD           | 0.1          | 0.9 (Nesterov=True)| 40 | 80 
 
 
 The non-linear function used is ReLu. Dropout value used is 0.5. 
