@@ -14,7 +14,7 @@ The following hyper parameters are used:
 
  Optimizer  | Learning Rate |  Momentum |  Batch Size | Epochs
  ------------- | -------------| ---------- | ---------| -------
- SGD           | 0.1          | 0.9 (Nesterov=True)| 20 | 80 
+ SGD           | 0.1          | 0.9 (Nesterov=True)| 10 | 80 
 
 
 The non-linear function used is ReLu. Dropout value used is 0.5. 
