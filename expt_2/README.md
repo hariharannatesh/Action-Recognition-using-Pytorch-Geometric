@@ -23,3 +23,4 @@ The following hyper parameters are used:
 + Number of STGCN Blocks used is 10.
 + Gnode used: gnode34
 + Number of GPUs used: 4
++ Edge importance parameter is set to True.
