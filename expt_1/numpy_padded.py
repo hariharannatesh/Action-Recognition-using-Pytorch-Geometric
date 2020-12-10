@@ -11,10 +11,10 @@ action_list=[]
 
 
 def auto_pading(data_numpy, size, random_pad=False):
-    M, T, C, V = data_numpy.shape
+    M, T, V, C = data_numpy.shape
     if T < size:
         begin = random.randint(0, size - T) if random_pad else 0
-        data_numpy_paded = np.zeros((M,size, C, V))
+        data_numpy_paded = np.zeros((M,size, V, C))
         data_numpy_paded[:,begin:begin + T, :,:] = data_numpy
         return data_numpy_paded
     else:
@@ -43,6 +43,8 @@ for f in files:
 		keys=data.keys()
 
 		shape=data['skel_body0'].shape
+
+		print("Shape",shape)
 
 		if('skel_body1' in keys):
 
