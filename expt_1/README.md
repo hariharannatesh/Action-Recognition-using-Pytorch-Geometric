@@ -21,5 +21,6 @@ The following hyper parameters are used:
 + Dropout value used is 0.5. 
 + Number of STGCN Blocks used is 10.
 + Gnode used: gnode19
++ Edge importance parameter is set to True
 
 Link for the Train and Validation Plots: https://colab.research.google.com/drive/1ZnVMORrYDFNjYRW9HvVzbyq5kuxS_Pvp#scrollTo=8fgQaR6v6C6x
