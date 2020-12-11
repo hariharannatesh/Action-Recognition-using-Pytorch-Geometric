@@ -24,3 +24,5 @@ The following hyper parameters are used:
 + Gnode used: gnode34
 + Number of GPUs used: 4
 + Edge importance parameter is set to True.
+
+After 80 epochs, the training and validation plot: https://colab.research.google.com/drive/1xGrQRJGGHvwszpKDP-wTAO25ZrUnwMnJ?usp=sharing
