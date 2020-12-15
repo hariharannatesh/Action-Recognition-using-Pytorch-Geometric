@@ -28,4 +28,5 @@ The following hyper parameters are used:
 + Number of GPUs used: 4
 + Edge importance parameter is set to True.
 
-After 80 epochs, the training and validation plot: 
+After 80 epochs, the training and validation plot: https://colab.research.google.com/drive/1UL-qh4RUqC68faO2Kef6WYXgCYu5aNvc#scrollTo=8fgQaR6v6C6x
+
