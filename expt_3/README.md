@@ -30,3 +30,12 @@ The following hyper parameters are used:
 
 After 80 epochs, the training and validation plot: https://colab.research.google.com/drive/1UL-qh4RUqC68faO2Kef6WYXgCYu5aNvc#scrollTo=8fgQaR6v6C6x
 
+## Expt 3b:
+
+Now a learning rate scheduler is added:
+scheduler=lr_scheduler.MultiStepLR(optimizer,milestones=[12,52],gamma=0.1)
+
+The other parameters are kept same and the model is trained again.
+
+
+After 80 epochs, the training and validation plot: https://colab.research.google.com/drive/1oXSEQPzokl58c6fU-EgMwjYhoyQAbCXj#scrollTo=8fgQaR6v6C6x
