@@ -9,12 +9,12 @@ A series of experiments will be conducted to test the various methods and to see
 
 ## Table
 
-Experiment |Epochs  | Training Accuracy | Validation accuracy
------------|--------|-------------------|--------------------
-Exp 1      | 80     |     0.23          |  0.016
-Exp 2      | 80     |     0.66          |  0.57
-Exp 3      | 80     |     0.71          |  0.60
-Exp 3b     | 80     |     0.79          |  0.51 
+Date           |Experiment |Epochs  | Training Accuracy | Validation accuracy
+---------------|-----------|--------|-------------------|--------------------
+7/12/2020      |Exp 1      | 80     |     0.23          |  0.016
+10/12/2020     |Exp 2      | 80     |     0.66          |  0.57
+14/12/2020     |Exp 3      | 80     |     0.71          |  0.60
+15/12/2020     |Exp 3b     | 80     |     0.79          |  0.51 
 
 ## Packages Used
 + Python (3.6.8)
