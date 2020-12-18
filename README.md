@@ -5,6 +5,7 @@ A series of experiments will be conducted to test the various methods and to see
 - [x] Experiment 1: The sequences are padded along the temporal dimension to a common length.
 - [x] Experiment 2: The data is padded along the feature dimension.
 - [x] Experiment 3: The data for 2 person is batched together along the temporal dimension such that both the graphs are treated separately for spatial and temporal convolution.
+- [x] Experiment original stgcn: The original code is trained from scratch to observe the training and validation plots.
 
 
 ## Table
@@ -15,6 +16,7 @@ Date           |Experiment |Epochs  | Training Accuracy | Validation accuracy
 10/12/2020     |Exp 2      | 80     |     0.66          |  0.57
 14/12/2020     |Exp 3      | 80     |     0.71          |  0.60
 15/12/2020     |Exp 3b     | 80     |     0.79          |  0.51 
+18/12/2020     |Exp original_stgcn|80|    0.9993        |  0.7751
 
 ## Packages Used
 + Python (3.6.8)
