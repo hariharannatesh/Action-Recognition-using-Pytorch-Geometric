@@ -10,7 +10,7 @@ The following hyper parameters are used:
 
  Optimizer  | Learning Rate |  Momentum |  Batch Size | Epochs
  ------------- | -------------| ---------- | ---------| -------
- SGD           | 0.1          | 0.9 (Nesterov=True)| 10 | 80 
+ SGD           | 0.1          | 0.9 (Nesterov=True)| 40 | 80 
 
 Date: 18/12/2020
 
@@ -19,5 +19,6 @@ Date: 18/12/2020
 + Number of STGCN Blocks used is 10.
 + Gnode used: gnode11
 + Edge importance parameter is set to True
++ Learning Rate Scheduler: scheduler=lr_scheduler.MultiStepLR(optimizer,milestones=[10,50],gamma=0.1)
 
 Link for the Train and Validation Plots: https://colab.research.google.com/drive/1bXkdLHb_a4gmUgfw161nUSNWq8hUZRPo#scrollTo=8fgQaR6v6C6x
