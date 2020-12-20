@@ -29,4 +29,4 @@ The following hyper parameters are used:
 + Edge importance parameter is set to True.
 + Learning Rate Scheduler: scheduler=lr_scheduler.MultiStepLR(optimizer,milestones=[10,50],gamma=0.1)
 
-After 120 epochs, the training and validation plot: 
+After 120 epochs, the training and validation plot: https://colab.research.google.com/drive/1n78FivrEoGoqS7DsE5-Bx8qBKEUOe_FV#scrollTo=8fgQaR6v6C6x
