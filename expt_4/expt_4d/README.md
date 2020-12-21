@@ -13,6 +13,6 @@ The following hyper parameters are used:
 + Gnode used: gnode34
 + Number of GPUs used: 2
 + Edge importance parameter is set to True.
-+ Learning Rate Scheduler: scheduler=lr_scheduler.MultiStepLR(optimizer,milestones=[75,100],gamma=0.0.96)
++ Learning Rate Scheduler: scheduler=lr_scheduler.MultiStepLR(optimizer,milestones=[75,100],gamma=0.96)
 
 After 120 epochs, the training and validation plot: 
