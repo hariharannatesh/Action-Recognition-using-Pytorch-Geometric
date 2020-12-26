@@ -1,4 +1,4 @@
-Date of Experiment: 23 - 12 - 2020
+Date of Experiment: 24 - 12 - 2020
 
 The following hyper parameters are used:
 
