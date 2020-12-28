@@ -4,7 +4,7 @@ The following hyper parameters are used:
 
  Optimizer  | Learning Rate |  Momentum    |  Batch Size | Epochs
  ------------- | -------------| ---------- | ---------| -------
- SGD           | 0.01          | 0.9        | 64   | 100 
+ SGD           | 0.01          | 0.9        | 30   | 100 
 
 
 + The non-linear function used is ReLu. 
