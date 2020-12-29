@@ -18,5 +18,5 @@ Different hyper parameters are used for each experiment. The details and the plo
 
 Date       | Expt   | Epochs | STGCN Blocks | Train accuracy | Val accuracy | Stopping epoch | Val accuracy at Stop epoch |
 -----------|--------|--------|--------------|----------------|--------------|----------------|----------------------------|
-28/12/2020 |5a      |100     | 7            |                |              |                |
-28/12/2020 |5b      |100     | 5            |                |              |                |
+28/12/2020 |5a      |100     | 7            |   0.93         | 0.51         | 10             | 0.53                       |
+28/12/2020 |5b      |100     | 5            |   1.0          | 0.57         | 10             | 0.57                       |
