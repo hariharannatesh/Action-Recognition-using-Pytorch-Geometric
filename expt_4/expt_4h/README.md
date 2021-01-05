@@ -38,9 +38,9 @@ Per class performance:
 
 Class Name    | Number of samples | Correctly recognized by original stgcn(A) | Correctly recognized by pytorch geometric(B) |  B-A   
 --------------|-------------------|-------------------------------------------|----------------------------------------------|--------
-1. Drink water| 155               |                                           | 72                                           |
-2. Eat meal   | 154               |                                           | 60                                           |
-3. Brushing teeth|154             |                                           | 83                                           |        
+1.Drink water | 155               |                                           | 72                                           |
+2.Eat meal    | 154               |                                           | 60                                           |
+3.Brushing teeth|154              |                                           | 83                                           |        
 4.Brushing hair  |155             |                                           | 52                                           |        
 5.Drop           |153             |                                           | 85                                           |
 6.Pickup         |155             |                                           | 141                                          |
