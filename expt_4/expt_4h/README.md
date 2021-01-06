@@ -26,3 +26,6 @@ https://docs.google.com/spreadsheets/d/10LksaQwa-0_j1uYCPTXebPuYeKOhC28MMu1-TeK8
 
 **Comparing Original STGCN Code and Pytorch Geometric Code Based on Action Class**
 https://docs.google.com/spreadsheets/d/11Weg7pmWkwoiSgAQ9spWzgbMYhKedH6iZaMB-2ecOW0/edit#gid=0
+
+**Histogram of Validation data sequence length comparison and Training Data comparison (bin size 1)**
+https://colab.research.google.com/drive/1xMblvIRHbCC-Bw983XgkYD_wDom7SuzF#scrollTo=DbGc8_iRNsu5
