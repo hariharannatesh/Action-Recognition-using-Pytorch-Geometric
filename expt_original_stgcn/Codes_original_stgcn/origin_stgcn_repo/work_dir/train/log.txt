@@ -1,0 +1,140 @@
+[12.17.20|19:57:54] Parameters:
+{'work_dir': './work_dir/train/', 'config': 'config/st_gcn/ntu-xsub/train.yaml', 'phase': 'train', 'save_result': False, 'start_epoch': 0, 'num_epoch': 5, 'use_gpu': True, 'device': [0, 1], 'log_interval': 100, 'save_interval': 10, 'eval_interval': 5, 'save_log': True, 'print_log': True, 'pavi_log': False, 'feeder': 'feeder.feeder.Feeder', 'num_worker': 4, 'train_feeder_args': {'data_path': '/ssd_scratch/cvit/nateshhariharan/Dataset_NTU_RGBD/xsub/train_data.npy', 'label_path': '/ssd_scratch/cvit/nateshhariharan/Dataset_NTU_RGBD/xsub/train_label.pkl', 'debug': False}, 'test_feeder_args': {'data_path': '/ssd_scratch/cvit/nateshhariharan/Dataset_NTU_RGBD/xsub/val_data.npy', 'label_path': '/ssd_scratch/cvit/nateshhariharan/Dataset_NTU_RGBD/xsub/val_label.pkl'}, 'batch_size': 40, 'test_batch_size': 40, 'debug': False, 'model': 'net.st_gcn.Model', 'model_args': {'in_channels': 3, 'num_class': 60, 'dropout': 0.5, 'edge_importance_weighting': True, 'graph_args': {'layout': 'ntu-rgb+d', 'strategy': 'spatial'}}, 'weights': None, 'ignore_weights': [], 'show_topk': [1, 5], 'base_lr': 0.1, 'step': [10, 50], 'optimizer': 'SGD', 'nesterov': True, 'weight_decay': 0.0001}
+
+[12.17.20|19:57:54] Training epoch: 0
+[12.17.20|19:59:09] Parameters:
+{'work_dir': './work_dir/train/', 'config': 'config/st_gcn/ntu-xsub/train.yaml', 'phase': 'train', 'save_result': False, 'start_epoch': 0, 'num_epoch': 5, 'use_gpu': True, 'device': [0, 1], 'log_interval': 100, 'save_interval': 10, 'eval_interval': 5, 'save_log': True, 'print_log': True, 'pavi_log': False, 'feeder': 'feeder.feeder.Feeder', 'num_worker': 4, 'train_feeder_args': {'data_path': '/ssd_scratch/cvit/nateshhariharan/Dataset_NTU_RGBD/xsub/train_data.npy', 'label_path': '/ssd_scratch/cvit/nateshhariharan/Dataset_NTU_RGBD/xsub/train_label.pkl', 'debug': False}, 'test_feeder_args': {'data_path': '/ssd_scratch/cvit/nateshhariharan/Dataset_NTU_RGBD/xsub/val_data.npy', 'label_path': '/ssd_scratch/cvit/nateshhariharan/Dataset_NTU_RGBD/xsub/val_label.pkl'}, 'batch_size': 40, 'test_batch_size': 40, 'debug': False, 'model': 'net.st_gcn.Model', 'model_args': {'in_channels': 3, 'num_class': 60, 'dropout': 0.5, 'edge_importance_weighting': True, 'graph_args': {'layout': 'ntu-rgb+d', 'strategy': 'spatial'}}, 'weights': None, 'ignore_weights': [], 'show_topk': [1, 5], 'base_lr': 0.1, 'step': [10, 50], 'optimizer': 'SGD', 'nesterov': True, 'weight_decay': 0.0001}
+
+[12.17.20|19:59:09] Training epoch: 0
+[12.17.20|20:00:18] Parameters:
+{'work_dir': './work_dir/train/', 'config': 'config/st_gcn/ntu-xsub/train.yaml', 'phase': 'train', 'save_result': False, 'start_epoch': 0, 'num_epoch': 5, 'use_gpu': True, 'device': [0, 1], 'log_interval': 100, 'save_interval': 10, 'eval_interval': 5, 'save_log': True, 'print_log': True, 'pavi_log': False, 'feeder': 'feeder.feeder.Feeder', 'num_worker': 4, 'train_feeder_args': {'data_path': '/ssd_scratch/cvit/nateshhariharan/Dataset_NTU_RGBD/xsub/train_data.npy', 'label_path': '/ssd_scratch/cvit/nateshhariharan/Dataset_NTU_RGBD/xsub/train_label.pkl', 'debug': False}, 'test_feeder_args': {'data_path': '/ssd_scratch/cvit/nateshhariharan/Dataset_NTU_RGBD/xsub/val_data.npy', 'label_path': '/ssd_scratch/cvit/nateshhariharan/Dataset_NTU_RGBD/xsub/val_label.pkl'}, 'batch_size': 40, 'test_batch_size': 40, 'debug': False, 'model': 'net.st_gcn.Model', 'model_args': {'in_channels': 3, 'num_class': 60, 'dropout': 0.5, 'edge_importance_weighting': True, 'graph_args': {'layout': 'ntu-rgb+d', 'strategy': 'spatial'}}, 'weights': None, 'ignore_weights': [], 'show_topk': [1, 5], 'base_lr': 0.1, 'step': [10, 50], 'optimizer': 'SGD', 'nesterov': True, 'weight_decay': 0.0001}
+
+[12.17.20|20:00:18] Training epoch: 0
+[12.17.20|20:03:19] Parameters:
+{'work_dir': './work_dir/train/', 'config': 'config/st_gcn/ntu-xsub/train.yaml', 'phase': 'train', 'save_result': False, 'start_epoch': 0, 'num_epoch': 5, 'use_gpu': True, 'device': [0, 1], 'log_interval': 100, 'save_interval': 10, 'eval_interval': 5, 'save_log': True, 'print_log': True, 'pavi_log': False, 'feeder': 'feeder.feeder.Feeder', 'num_worker': 4, 'train_feeder_args': {'data_path': '/ssd_scratch/cvit/nateshhariharan/Dataset_NTU_RGBD/xsub/train_data.npy', 'label_path': '/ssd_scratch/cvit/nateshhariharan/Dataset_NTU_RGBD/xsub/train_label.pkl', 'debug': False}, 'test_feeder_args': {'data_path': '/ssd_scratch/cvit/nateshhariharan/Dataset_NTU_RGBD/xsub/val_data.npy', 'label_path': '/ssd_scratch/cvit/nateshhariharan/Dataset_NTU_RGBD/xsub/val_label.pkl'}, 'batch_size': 40, 'test_batch_size': 40, 'debug': False, 'model': 'net.st_gcn.Model', 'model_args': {'in_channels': 3, 'num_class': 60, 'dropout': 0.5, 'edge_importance_weighting': True, 'graph_args': {'layout': 'ntu-rgb+d', 'strategy': 'spatial'}}, 'weights': None, 'ignore_weights': [], 'show_topk': [1, 5], 'base_lr': 0.1, 'step': [10, 50], 'optimizer': 'SGD', 'nesterov': True, 'weight_decay': 0.0001}
+
+[12.17.20|20:03:19] Training epoch: 0
+[12.17.20|20:04:54] Parameters:
+{'work_dir': './work_dir/train/', 'config': 'config/st_gcn/ntu-xsub/train.yaml', 'phase': 'train', 'save_result': False, 'start_epoch': 0, 'num_epoch': 5, 'use_gpu': True, 'device': [0, 1], 'log_interval': 100, 'save_interval': 10, 'eval_interval': 5, 'save_log': True, 'print_log': True, 'pavi_log': False, 'feeder': 'feeder.feeder.Feeder', 'num_worker': 4, 'train_feeder_args': {'data_path': '/ssd_scratch/cvit/nateshhariharan/Dataset_NTU_RGBD/xsub/train_data.npy', 'label_path': '/ssd_scratch/cvit/nateshhariharan/Dataset_NTU_RGBD/xsub/train_label.pkl', 'debug': False}, 'test_feeder_args': {'data_path': '/ssd_scratch/cvit/nateshhariharan/Dataset_NTU_RGBD/xsub/val_data.npy', 'label_path': '/ssd_scratch/cvit/nateshhariharan/Dataset_NTU_RGBD/xsub/val_label.pkl'}, 'batch_size': 40, 'test_batch_size': 40, 'debug': False, 'model': 'net.st_gcn.Model', 'model_args': {'in_channels': 3, 'num_class': 60, 'dropout': 0.5, 'edge_importance_weighting': True, 'graph_args': {'layout': 'ntu-rgb+d', 'strategy': 'spatial'}}, 'weights': None, 'ignore_weights': [], 'show_topk': [1, 5], 'base_lr': 0.1, 'step': [10, 50], 'optimizer': 'SGD', 'nesterov': True, 'weight_decay': 0.0001}
+
+[12.17.20|20:04:54] Training epoch: 0
+[12.17.20|20:05:15] Parameters:
+{'work_dir': './work_dir/train/', 'config': 'config/st_gcn/ntu-xsub/train.yaml', 'phase': 'train', 'save_result': False, 'start_epoch': 0, 'num_epoch': 5, 'use_gpu': True, 'device': [0, 1], 'log_interval': 100, 'save_interval': 10, 'eval_interval': 5, 'save_log': True, 'print_log': True, 'pavi_log': False, 'feeder': 'feeder.feeder.Feeder', 'num_worker': 4, 'train_feeder_args': {'data_path': '/ssd_scratch/cvit/nateshhariharan/Dataset_NTU_RGBD/xsub/train_data.npy', 'label_path': '/ssd_scratch/cvit/nateshhariharan/Dataset_NTU_RGBD/xsub/train_label.pkl', 'debug': False}, 'test_feeder_args': {'data_path': '/ssd_scratch/cvit/nateshhariharan/Dataset_NTU_RGBD/xsub/val_data.npy', 'label_path': '/ssd_scratch/cvit/nateshhariharan/Dataset_NTU_RGBD/xsub/val_label.pkl'}, 'batch_size': 40, 'test_batch_size': 40, 'debug': False, 'model': 'net.st_gcn.Model', 'model_args': {'in_channels': 3, 'num_class': 60, 'dropout': 0.5, 'edge_importance_weighting': True, 'graph_args': {'layout': 'ntu-rgb+d', 'strategy': 'spatial'}}, 'weights': None, 'ignore_weights': [], 'show_topk': [1, 5], 'base_lr': 0.1, 'step': [10, 50], 'optimizer': 'SGD', 'nesterov': True, 'weight_decay': 0.0001}
+
+[12.17.20|20:05:15] Training epoch: 0
+[12.17.20|20:05:57] Parameters:
+{'work_dir': './work_dir/train/', 'config': 'config/st_gcn/ntu-xsub/train.yaml', 'phase': 'train', 'save_result': False, 'start_epoch': 0, 'num_epoch': 5, 'use_gpu': True, 'device': [0, 1], 'log_interval': 100, 'save_interval': 10, 'eval_interval': 5, 'save_log': True, 'print_log': True, 'pavi_log': False, 'feeder': 'feeder.feeder.Feeder', 'num_worker': 4, 'train_feeder_args': {'data_path': '/ssd_scratch/cvit/nateshhariharan/Dataset_NTU_RGBD/xsub/train_data.npy', 'label_path': '/ssd_scratch/cvit/nateshhariharan/Dataset_NTU_RGBD/xsub/train_label.pkl', 'debug': False}, 'test_feeder_args': {'data_path': '/ssd_scratch/cvit/nateshhariharan/Dataset_NTU_RGBD/xsub/val_data.npy', 'label_path': '/ssd_scratch/cvit/nateshhariharan/Dataset_NTU_RGBD/xsub/val_label.pkl'}, 'batch_size': 40, 'test_batch_size': 40, 'debug': False, 'model': 'net.st_gcn.Model', 'model_args': {'in_channels': 3, 'num_class': 60, 'dropout': 0.5, 'edge_importance_weighting': True, 'graph_args': {'layout': 'ntu-rgb+d', 'strategy': 'spatial'}}, 'weights': None, 'ignore_weights': [], 'show_topk': [1, 5], 'base_lr': 0.1, 'step': [10, 50], 'optimizer': 'SGD', 'nesterov': True, 'weight_decay': 0.0001}
+
+[12.17.20|20:05:57] Training epoch: 0
+[12.17.20|20:07:16] Parameters:
+{'work_dir': './work_dir/train/', 'config': 'config/st_gcn/ntu-xsub/train.yaml', 'phase': 'train', 'save_result': False, 'start_epoch': 0, 'num_epoch': 5, 'use_gpu': True, 'device': [0, 1], 'log_interval': 100, 'save_interval': 10, 'eval_interval': 5, 'save_log': True, 'print_log': True, 'pavi_log': False, 'feeder': 'feeder.feeder.Feeder', 'num_worker': 4, 'train_feeder_args': {'data_path': '/ssd_scratch/cvit/nateshhariharan/Dataset_NTU_RGBD/xsub/train_data.npy', 'label_path': '/ssd_scratch/cvit/nateshhariharan/Dataset_NTU_RGBD/xsub/train_label.pkl', 'debug': False}, 'test_feeder_args': {'data_path': '/ssd_scratch/cvit/nateshhariharan/Dataset_NTU_RGBD/xsub/val_data.npy', 'label_path': '/ssd_scratch/cvit/nateshhariharan/Dataset_NTU_RGBD/xsub/val_label.pkl'}, 'batch_size': 40, 'test_batch_size': 40, 'debug': False, 'model': 'net.st_gcn.Model', 'model_args': {'in_channels': 3, 'num_class': 60, 'dropout': 0.5, 'edge_importance_weighting': True, 'graph_args': {'layout': 'ntu-rgb+d', 'strategy': 'spatial'}}, 'weights': None, 'ignore_weights': [], 'show_topk': [1, 5], 'base_lr': 0.1, 'step': [10, 50], 'optimizer': 'SGD', 'nesterov': True, 'weight_decay': 0.0001}
+
+[12.17.20|20:07:16] Training epoch: 0
+[12.17.20|20:08:17] Parameters:
+{'work_dir': './work_dir/train/', 'config': 'config/st_gcn/ntu-xsub/train.yaml', 'phase': 'train', 'save_result': False, 'start_epoch': 0, 'num_epoch': 5, 'use_gpu': True, 'device': [0, 1], 'log_interval': 100, 'save_interval': 10, 'eval_interval': 5, 'save_log': True, 'print_log': True, 'pavi_log': False, 'feeder': 'feeder.feeder.Feeder', 'num_worker': 4, 'train_feeder_args': {'data_path': '/ssd_scratch/cvit/nateshhariharan/Dataset_NTU_RGBD/xsub/train_data.npy', 'label_path': '/ssd_scratch/cvit/nateshhariharan/Dataset_NTU_RGBD/xsub/train_label.pkl', 'debug': False}, 'test_feeder_args': {'data_path': '/ssd_scratch/cvit/nateshhariharan/Dataset_NTU_RGBD/xsub/val_data.npy', 'label_path': '/ssd_scratch/cvit/nateshhariharan/Dataset_NTU_RGBD/xsub/val_label.pkl'}, 'batch_size': 40, 'test_batch_size': 40, 'debug': False, 'model': 'net.st_gcn.Model', 'model_args': {'in_channels': 3, 'num_class': 60, 'dropout': 0.5, 'edge_importance_weighting': True, 'graph_args': {'layout': 'ntu-rgb+d', 'strategy': 'spatial'}}, 'weights': None, 'ignore_weights': [], 'show_topk': [1, 5], 'base_lr': 0.1, 'step': [10, 50], 'optimizer': 'SGD', 'nesterov': True, 'weight_decay': 0.0001}
+
+[12.17.20|20:08:17] Training epoch: 0
+[12.17.20|20:09:06] Parameters:
+{'work_dir': './work_dir/train/', 'config': 'config/st_gcn/ntu-xsub/train.yaml', 'phase': 'train', 'save_result': False, 'start_epoch': 0, 'num_epoch': 5, 'use_gpu': True, 'device': [0, 1], 'log_interval': 100, 'save_interval': 10, 'eval_interval': 5, 'save_log': True, 'print_log': True, 'pavi_log': False, 'feeder': 'feeder.feeder.Feeder', 'num_worker': 4, 'train_feeder_args': {'data_path': '/ssd_scratch/cvit/nateshhariharan/Dataset_NTU_RGBD/xsub/train_data.npy', 'label_path': '/ssd_scratch/cvit/nateshhariharan/Dataset_NTU_RGBD/xsub/train_label.pkl', 'debug': False}, 'test_feeder_args': {'data_path': '/ssd_scratch/cvit/nateshhariharan/Dataset_NTU_RGBD/xsub/val_data.npy', 'label_path': '/ssd_scratch/cvit/nateshhariharan/Dataset_NTU_RGBD/xsub/val_label.pkl'}, 'batch_size': 40, 'test_batch_size': 40, 'debug': False, 'model': 'net.st_gcn.Model', 'model_args': {'in_channels': 3, 'num_class': 60, 'dropout': 0.5, 'edge_importance_weighting': True, 'graph_args': {'layout': 'ntu-rgb+d', 'strategy': 'spatial'}}, 'weights': None, 'ignore_weights': [], 'show_topk': [1, 5], 'base_lr': 0.1, 'step': [10, 50], 'optimizer': 'SGD', 'nesterov': True, 'weight_decay': 0.0001}
+
+[12.17.20|20:09:06] Training epoch: 0
+[12.17.20|20:11:29] Parameters:
+{'work_dir': './work_dir/train/', 'config': 'config/st_gcn/ntu-xsub/train.yaml', 'phase': 'train', 'save_result': False, 'start_epoch': 0, 'num_epoch': 5, 'use_gpu': True, 'device': [0, 1], 'log_interval': 100, 'save_interval': 10, 'eval_interval': 5, 'save_log': True, 'print_log': True, 'pavi_log': False, 'feeder': 'feeder.feeder.Feeder', 'num_worker': 4, 'train_feeder_args': {'data_path': '/ssd_scratch/cvit/nateshhariharan/Dataset_NTU_RGBD/xsub/train_data.npy', 'label_path': '/ssd_scratch/cvit/nateshhariharan/Dataset_NTU_RGBD/xsub/train_label.pkl', 'debug': False}, 'test_feeder_args': {'data_path': '/ssd_scratch/cvit/nateshhariharan/Dataset_NTU_RGBD/xsub/val_data.npy', 'label_path': '/ssd_scratch/cvit/nateshhariharan/Dataset_NTU_RGBD/xsub/val_label.pkl'}, 'batch_size': 40, 'test_batch_size': 40, 'debug': False, 'model': 'net.st_gcn.Model', 'model_args': {'in_channels': 3, 'num_class': 60, 'dropout': 0.5, 'edge_importance_weighting': True, 'graph_args': {'layout': 'ntu-rgb+d', 'strategy': 'spatial'}}, 'weights': None, 'ignore_weights': [], 'show_topk': [1, 5], 'base_lr': 0.1, 'step': [10, 50], 'optimizer': 'SGD', 'nesterov': True, 'weight_decay': 0.0001}
+
+[12.17.20|20:11:29] Training epoch: 0
+[12.17.20|20:14:29] Parameters:
+{'work_dir': './work_dir/train/', 'config': 'config/st_gcn/ntu-xsub/train.yaml', 'phase': 'train', 'save_result': False, 'start_epoch': 0, 'num_epoch': 5, 'use_gpu': True, 'device': [0, 1], 'log_interval': 100, 'save_interval': 10, 'eval_interval': 5, 'save_log': True, 'print_log': True, 'pavi_log': False, 'feeder': 'feeder.feeder.Feeder', 'num_worker': 4, 'train_feeder_args': {'data_path': '/ssd_scratch/cvit/nateshhariharan/Dataset_NTU_RGBD/xsub/train_data.npy', 'label_path': '/ssd_scratch/cvit/nateshhariharan/Dataset_NTU_RGBD/xsub/train_label.pkl', 'debug': False}, 'test_feeder_args': {'data_path': '/ssd_scratch/cvit/nateshhariharan/Dataset_NTU_RGBD/xsub/val_data.npy', 'label_path': '/ssd_scratch/cvit/nateshhariharan/Dataset_NTU_RGBD/xsub/val_label.pkl'}, 'batch_size': 40, 'test_batch_size': 40, 'debug': False, 'model': 'net.st_gcn.Model', 'model_args': {'in_channels': 3, 'num_class': 60, 'dropout': 0.5, 'edge_importance_weighting': True, 'graph_args': {'layout': 'ntu-rgb+d', 'strategy': 'spatial'}}, 'weights': None, 'ignore_weights': [], 'show_topk': [1, 5], 'base_lr': 0.1, 'step': [10, 50], 'optimizer': 'SGD', 'nesterov': True, 'weight_decay': 0.0001}
+
+[12.17.20|20:14:29] Training epoch: 0
+[12.17.20|20:16:43] Parameters:
+{'work_dir': './work_dir/train/', 'config': 'config/st_gcn/ntu-xsub/train.yaml', 'phase': 'train', 'save_result': False, 'start_epoch': 0, 'num_epoch': 5, 'use_gpu': True, 'device': [0, 1], 'log_interval': 100, 'save_interval': 10, 'eval_interval': 5, 'save_log': True, 'print_log': True, 'pavi_log': False, 'feeder': 'feeder.feeder.Feeder', 'num_worker': 4, 'train_feeder_args': {'data_path': '/ssd_scratch/cvit/nateshhariharan/Dataset_NTU_RGBD/xsub/train_data.npy', 'label_path': '/ssd_scratch/cvit/nateshhariharan/Dataset_NTU_RGBD/xsub/train_label.pkl', 'debug': False}, 'test_feeder_args': {'data_path': '/ssd_scratch/cvit/nateshhariharan/Dataset_NTU_RGBD/xsub/val_data.npy', 'label_path': '/ssd_scratch/cvit/nateshhariharan/Dataset_NTU_RGBD/xsub/val_label.pkl'}, 'batch_size': 40, 'test_batch_size': 40, 'debug': False, 'model': 'net.st_gcn.Model', 'model_args': {'in_channels': 3, 'num_class': 60, 'dropout': 0.5, 'edge_importance_weighting': True, 'graph_args': {'layout': 'ntu-rgb+d', 'strategy': 'spatial'}}, 'weights': None, 'ignore_weights': [], 'show_topk': [1, 5], 'base_lr': 0.1, 'step': [10, 50], 'optimizer': 'SGD', 'nesterov': True, 'weight_decay': 0.0001}
+
+[12.17.20|20:16:43] Training epoch: 0
+[12.17.20|20:17:48] Parameters:
+{'work_dir': './work_dir/train/', 'config': 'config/st_gcn/ntu-xsub/train.yaml', 'phase': 'train', 'save_result': False, 'start_epoch': 0, 'num_epoch': 5, 'use_gpu': True, 'device': [0, 1], 'log_interval': 100, 'save_interval': 10, 'eval_interval': 5, 'save_log': True, 'print_log': True, 'pavi_log': False, 'feeder': 'feeder.feeder.Feeder', 'num_worker': 4, 'train_feeder_args': {'data_path': '/ssd_scratch/cvit/nateshhariharan/Dataset_NTU_RGBD/xsub/train_data.npy', 'label_path': '/ssd_scratch/cvit/nateshhariharan/Dataset_NTU_RGBD/xsub/train_label.pkl', 'debug': False}, 'test_feeder_args': {'data_path': '/ssd_scratch/cvit/nateshhariharan/Dataset_NTU_RGBD/xsub/val_data.npy', 'label_path': '/ssd_scratch/cvit/nateshhariharan/Dataset_NTU_RGBD/xsub/val_label.pkl'}, 'batch_size': 40, 'test_batch_size': 40, 'debug': False, 'model': 'net.st_gcn.Model', 'model_args': {'in_channels': 3, 'num_class': 60, 'dropout': 0.5, 'edge_importance_weighting': True, 'graph_args': {'layout': 'ntu-rgb+d', 'strategy': 'spatial'}}, 'weights': None, 'ignore_weights': [], 'show_topk': [1, 5], 'base_lr': 0.1, 'step': [10, 50], 'optimizer': 'SGD', 'nesterov': True, 'weight_decay': 0.0001}
+
+[12.17.20|20:17:48] Training epoch: 0
+[12.17.20|20:19:55] Parameters:
+{'work_dir': './work_dir/train/', 'config': 'config/st_gcn/ntu-xsub/train.yaml', 'phase': 'train', 'save_result': False, 'start_epoch': 0, 'num_epoch': 5, 'use_gpu': True, 'device': [0, 1], 'log_interval': 100, 'save_interval': 10, 'eval_interval': 5, 'save_log': True, 'print_log': True, 'pavi_log': False, 'feeder': 'feeder.feeder.Feeder', 'num_worker': 4, 'train_feeder_args': {'data_path': '/ssd_scratch/cvit/nateshhariharan/Dataset_NTU_RGBD/xsub/train_data.npy', 'label_path': '/ssd_scratch/cvit/nateshhariharan/Dataset_NTU_RGBD/xsub/train_label.pkl', 'debug': False}, 'test_feeder_args': {'data_path': '/ssd_scratch/cvit/nateshhariharan/Dataset_NTU_RGBD/xsub/val_data.npy', 'label_path': '/ssd_scratch/cvit/nateshhariharan/Dataset_NTU_RGBD/xsub/val_label.pkl'}, 'batch_size': 40, 'test_batch_size': 40, 'debug': False, 'model': 'net.st_gcn.Model', 'model_args': {'in_channels': 3, 'num_class': 60, 'dropout': 0.5, 'edge_importance_weighting': True, 'graph_args': {'layout': 'ntu-rgb+d', 'strategy': 'spatial'}}, 'weights': None, 'ignore_weights': [], 'show_topk': [1, 5], 'base_lr': 0.1, 'step': [10, 50], 'optimizer': 'SGD', 'nesterov': True, 'weight_decay': 0.0001}
+
+[12.17.20|20:19:55] Training epoch: 0
+[12.17.20|20:21:19] Parameters:
+{'work_dir': './work_dir/train/', 'config': 'config/st_gcn/ntu-xsub/train.yaml', 'phase': 'train', 'save_result': False, 'start_epoch': 0, 'num_epoch': 5, 'use_gpu': True, 'device': [0, 1], 'log_interval': 100, 'save_interval': 10, 'eval_interval': 5, 'save_log': True, 'print_log': True, 'pavi_log': False, 'feeder': 'feeder.feeder.Feeder', 'num_worker': 4, 'train_feeder_args': {'data_path': '/ssd_scratch/cvit/nateshhariharan/Dataset_NTU_RGBD/xsub/train_data.npy', 'label_path': '/ssd_scratch/cvit/nateshhariharan/Dataset_NTU_RGBD/xsub/train_label.pkl', 'debug': False}, 'test_feeder_args': {'data_path': '/ssd_scratch/cvit/nateshhariharan/Dataset_NTU_RGBD/xsub/val_data.npy', 'label_path': '/ssd_scratch/cvit/nateshhariharan/Dataset_NTU_RGBD/xsub/val_label.pkl'}, 'batch_size': 40, 'test_batch_size': 40, 'debug': False, 'model': 'net.st_gcn.Model', 'model_args': {'in_channels': 3, 'num_class': 60, 'dropout': 0.5, 'edge_importance_weighting': True, 'graph_args': {'layout': 'ntu-rgb+d', 'strategy': 'spatial'}}, 'weights': None, 'ignore_weights': [], 'show_topk': [1, 5], 'base_lr': 0.1, 'step': [10, 50], 'optimizer': 'SGD', 'nesterov': True, 'weight_decay': 0.0001}
+
+[12.17.20|20:21:19] Training epoch: 0
+[12.17.20|20:21:47] Parameters:
+{'work_dir': './work_dir/train/', 'config': 'config/st_gcn/ntu-xsub/train.yaml', 'phase': 'train', 'save_result': False, 'start_epoch': 0, 'num_epoch': 5, 'use_gpu': True, 'device': [0, 1], 'log_interval': 100, 'save_interval': 10, 'eval_interval': 5, 'save_log': True, 'print_log': True, 'pavi_log': False, 'feeder': 'feeder.feeder.Feeder', 'num_worker': 4, 'train_feeder_args': {'data_path': '/ssd_scratch/cvit/nateshhariharan/Dataset_NTU_RGBD/xsub/train_data.npy', 'label_path': '/ssd_scratch/cvit/nateshhariharan/Dataset_NTU_RGBD/xsub/train_label.pkl', 'debug': False}, 'test_feeder_args': {'data_path': '/ssd_scratch/cvit/nateshhariharan/Dataset_NTU_RGBD/xsub/val_data.npy', 'label_path': '/ssd_scratch/cvit/nateshhariharan/Dataset_NTU_RGBD/xsub/val_label.pkl'}, 'batch_size': 40, 'test_batch_size': 40, 'debug': False, 'model': 'net.st_gcn.Model', 'model_args': {'in_channels': 3, 'num_class': 60, 'dropout': 0.5, 'edge_importance_weighting': True, 'graph_args': {'layout': 'ntu-rgb+d', 'strategy': 'spatial'}}, 'weights': None, 'ignore_weights': [], 'show_topk': [1, 5], 'base_lr': 0.1, 'step': [10, 50], 'optimizer': 'SGD', 'nesterov': True, 'weight_decay': 0.0001}
+
+[12.17.20|20:21:47] Training epoch: 0
+[12.17.20|20:23:19] Parameters:
+{'work_dir': './work_dir/train/', 'config': 'config/st_gcn/ntu-xsub/train.yaml', 'phase': 'train', 'save_result': False, 'start_epoch': 0, 'num_epoch': 5, 'use_gpu': True, 'device': [0, 1], 'log_interval': 100, 'save_interval': 10, 'eval_interval': 5, 'save_log': True, 'print_log': True, 'pavi_log': False, 'feeder': 'feeder.feeder.Feeder', 'num_worker': 4, 'train_feeder_args': {'data_path': '/ssd_scratch/cvit/nateshhariharan/Dataset_NTU_RGBD/xsub/train_data.npy', 'label_path': '/ssd_scratch/cvit/nateshhariharan/Dataset_NTU_RGBD/xsub/train_label.pkl', 'debug': False}, 'test_feeder_args': {'data_path': '/ssd_scratch/cvit/nateshhariharan/Dataset_NTU_RGBD/xsub/val_data.npy', 'label_path': '/ssd_scratch/cvit/nateshhariharan/Dataset_NTU_RGBD/xsub/val_label.pkl'}, 'batch_size': 40, 'test_batch_size': 40, 'debug': False, 'model': 'net.st_gcn.Model', 'model_args': {'in_channels': 3, 'num_class': 60, 'dropout': 0.5, 'edge_importance_weighting': True, 'graph_args': {'layout': 'ntu-rgb+d', 'strategy': 'spatial'}}, 'weights': None, 'ignore_weights': [], 'show_topk': [1, 5], 'base_lr': 0.1, 'step': [10, 50], 'optimizer': 'SGD', 'nesterov': True, 'weight_decay': 0.0001}
+
+[12.17.20|20:23:19] Training epoch: 0
+[12.17.20|20:23:53] Parameters:
+{'work_dir': './work_dir/train/', 'config': 'config/st_gcn/ntu-xsub/train.yaml', 'phase': 'train', 'save_result': False, 'start_epoch': 0, 'num_epoch': 5, 'use_gpu': True, 'device': [0, 1], 'log_interval': 100, 'save_interval': 10, 'eval_interval': 5, 'save_log': True, 'print_log': True, 'pavi_log': False, 'feeder': 'feeder.feeder.Feeder', 'num_worker': 4, 'train_feeder_args': {'data_path': '/ssd_scratch/cvit/nateshhariharan/Dataset_NTU_RGBD/xsub/train_data.npy', 'label_path': '/ssd_scratch/cvit/nateshhariharan/Dataset_NTU_RGBD/xsub/train_label.pkl', 'debug': False}, 'test_feeder_args': {'data_path': '/ssd_scratch/cvit/nateshhariharan/Dataset_NTU_RGBD/xsub/val_data.npy', 'label_path': '/ssd_scratch/cvit/nateshhariharan/Dataset_NTU_RGBD/xsub/val_label.pkl'}, 'batch_size': 40, 'test_batch_size': 40, 'debug': False, 'model': 'net.st_gcn.Model', 'model_args': {'in_channels': 3, 'num_class': 60, 'dropout': 0.5, 'edge_importance_weighting': True, 'graph_args': {'layout': 'ntu-rgb+d', 'strategy': 'spatial'}}, 'weights': None, 'ignore_weights': [], 'show_topk': [1, 5], 'base_lr': 0.1, 'step': [10, 50], 'optimizer': 'SGD', 'nesterov': True, 'weight_decay': 0.0001}
+
+[12.17.20|20:23:53] Training epoch: 0
+[12.17.20|20:23:54] 	Iter 0 Done. | loss: 4.1995 | lr: 0.100000
+[12.17.20|20:24:46] 	Iter 100 Done. | loss: 4.0516 | lr: 0.100000
+[12.17.20|20:25:39] 	Iter 200 Done. | loss: 3.8404 | lr: 0.100000
+[12.17.20|20:26:34] 	Iter 300 Done. | loss: 3.6527 | lr: 0.100000
+[12.17.20|20:27:28] 	Iter 400 Done. | loss: 3.5675 | lr: 0.100000
+[12.17.20|20:28:23] 	Iter 500 Done. | loss: 3.3166 | lr: 0.100000
+[12.17.20|20:29:17] 	Iter 600 Done. | loss: 3.1023 | lr: 0.100000
+[12.17.20|20:30:12] 	Iter 700 Done. | loss: 2.6967 | lr: 0.100000
+[12.17.20|20:30:49] 	mean_loss: 3.468439674191419
+[12.17.20|20:30:49] Time consumption:
+[12.17.20|20:30:49] Done.
+[12.17.20|20:30:49] Training epoch: 1
+[12.17.20|20:31:07] 	Iter 800 Done. | loss: 2.4244 | lr: 0.100000
+[12.17.20|20:32:02] 	Iter 900 Done. | loss: 2.8026 | lr: 0.100000
+[12.17.20|20:32:56] 	Iter 1000 Done. | loss: 2.3597 | lr: 0.100000
+[12.17.20|20:33:51] 	Iter 1100 Done. | loss: 2.7224 | lr: 0.100000
+[12.17.20|20:34:45] 	Iter 1200 Done. | loss: 2.8411 | lr: 0.100000
+[12.17.20|20:35:40] 	Iter 1300 Done. | loss: 1.9125 | lr: 0.100000
+[12.17.20|20:36:34] 	Iter 1400 Done. | loss: 2.0741 | lr: 0.100000
+[12.17.20|20:37:29] 	Iter 1500 Done. | loss: 2.0646 | lr: 0.100000
+[12.17.20|20:37:49] 	mean_loss: 2.3741225246025155
+[12.17.20|20:37:49] Time consumption:
+[12.17.20|20:37:49] Done.
+[12.17.20|20:37:49] Training epoch: 2
+[12.17.20|20:38:24] 	Iter 1600 Done. | loss: 1.7441 | lr: 0.100000
+[12.17.20|20:39:18] 	Iter 1700 Done. | loss: 1.7845 | lr: 0.100000
+[12.17.20|20:40:13] 	Iter 1800 Done. | loss: 1.6744 | lr: 0.100000
+[12.17.20|20:41:08] 	Iter 1900 Done. | loss: 2.2144 | lr: 0.100000
+[12.17.20|20:42:02] 	Iter 2000 Done. | loss: 1.6463 | lr: 0.100000
+[12.17.20|20:42:57] 	Iter 2100 Done. | loss: 1.6588 | lr: 0.100000
+[12.17.20|20:43:51] 	Iter 2200 Done. | loss: 1.8161 | lr: 0.100000
+[12.17.20|20:44:46] 	Iter 2300 Done. | loss: 2.1006 | lr: 0.100000
+[12.17.20|20:44:50] 	mean_loss: 1.819431837730507
+[12.17.20|20:44:50] Time consumption:
+[12.17.20|20:44:50] Done.
+[12.17.20|20:44:50] Training epoch: 3
+[12.17.20|20:45:41] 	Iter 2400 Done. | loss: 1.7055 | lr: 0.100000
+[12.17.20|20:46:36] 	Iter 2500 Done. | loss: 1.7079 | lr: 0.100000
+[12.17.20|20:47:31] 	Iter 2600 Done. | loss: 1.3251 | lr: 0.100000
+[12.17.20|20:48:26] 	Iter 2700 Done. | loss: 1.3796 | lr: 0.100000
+[12.17.20|20:49:20] 	Iter 2800 Done. | loss: 1.8593 | lr: 0.100000
+[12.17.20|20:50:15] 	Iter 2900 Done. | loss: 1.7620 | lr: 0.100000
+[12.17.20|20:51:09] 	Iter 3000 Done. | loss: 1.4216 | lr: 0.100000
+[12.17.20|20:51:50] 	mean_loss: 1.5989684523779641
+[12.17.20|20:51:50] Time consumption:
+[12.17.20|20:51:50] Done.
+[12.17.20|20:51:50] Training epoch: 4
+[12.17.20|20:52:04] 	Iter 3100 Done. | loss: 1.5699 | lr: 0.100000
+[12.17.20|20:52:59] 	Iter 3200 Done. | loss: 1.7020 | lr: 0.100000
+[12.17.20|20:53:54] 	Iter 3300 Done. | loss: 1.2759 | lr: 0.100000
+[12.17.20|20:54:49] 	Iter 3400 Done. | loss: 1.4196 | lr: 0.100000
+[12.17.20|20:55:44] 	Iter 3500 Done. | loss: 1.6533 | lr: 0.100000
+[12.17.20|20:56:38] 	Iter 3600 Done. | loss: 1.0991 | lr: 0.100000
+[12.17.20|20:57:33] 	Iter 3700 Done. | loss: 1.3089 | lr: 0.100000
+[12.17.20|20:58:28] 	Iter 3800 Done. | loss: 1.3500 | lr: 0.100000
+[12.17.20|20:58:52] 	mean_loss: 1.44946312129265
+[12.17.20|20:58:52] Time consumption:
+[12.17.20|20:58:52] Done.
+[12.17.20|20:58:52] The model has been saved as ./work_dir/train//epoch5_model.pt.
+[12.17.20|20:58:52] Eval epoch: 4
+[12.17.20|20:59:32] 	mean_loss: 1.7095868004238146
+[12.17.20|20:59:32] 	Top1: 49.50%
+[12.17.20|20:59:32] 	Top5: 84.75%
+[12.17.20|20:59:32] Done.
