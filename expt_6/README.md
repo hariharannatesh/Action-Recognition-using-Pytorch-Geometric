@@ -17,3 +17,7 @@ Different hyper parameters are used for each experiment. The details and the plo
 
 Date       | Expt  | Epochs  | Train accuracy | Val accuracy | Stopping epoch | Val accuracy at Stop Epoch |
 -----------|-------|---------|----------------|--------------|----------------|----------------------------|
+12/1/20201 |6a     | 84      |0.2366          | 0.1652       | -              | -                          |
+3/2/2021   |6b     | 80      |0.937           | 0.732        | 50             | 0.737                      |
+8/2/2021   |6c     | 51      |0.941           | -            |  -             | -                          |
+8/2/2021   |6d     | 80      |0.991           | 0.726        | 52             | 0.7308                     |
