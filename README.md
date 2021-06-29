@@ -7,7 +7,8 @@ A series of experiments will be conducted to test the various methods and to see
 - [x] Experiment 3: The data for 2 person is batched together along the temporal dimension such that both the graphs are treated separately for spatial and temporal convolution.
 - [x] Experiment original stgcn: The original code is trained from scratch to observe the training and validation plots.
 - [x] Experiment 4: The number of stgcn blocks are kept constant (10) and the hyperparameters are tuned.
-- [ ] Experiment 5: The number of stgcn blocks are varied and the accuracies are observed.
+- [x] Experiment 5: The number of stgcn blocks are varied and the accuracies are observed.
+- [x] Experiment 6: The issue of isotropic kernel of GCN is identified.
 
 
 ## Table
