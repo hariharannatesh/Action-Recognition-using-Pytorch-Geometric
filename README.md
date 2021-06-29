@@ -21,6 +21,8 @@ Date           |Experiment |Epochs  | Training Accuracy | Validation accuracy
 15/12/2020     |Exp 3b     | 80     |     0.79          |  0.51 
 18/12/2020     |Exp original_stgcn|80|    0.9993        |  0.7751
 
+Since Expt 4,5,6 have sub experiments go to those folders to view the table of accuracies. 
+
 ## Packages Used
 + Python (3.6.8)
 + Pytorch (1.6.0)
